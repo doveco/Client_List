@@ -29,7 +29,8 @@
 const searchButton = document.getElementById('searchButton');
 const tableBody = document.getElementById('tableBody');
 
-searchButton.addEventListener('click', () => {    
+searchButton.addEventListener('click', () => {  
+    tableBody.innerHTML = '';  
     fetch('db.json')
         .then(response => response.json())
         .then(data => {
