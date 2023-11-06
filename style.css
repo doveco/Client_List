@@ -1,0 +1,94 @@
+/* Adjusted CSS for better visualization */
+
+/* Style for table rows */
+tr {
+    cursor: pointer;
+    color: rgb(48, 41, 41);
+}
+
+/* Style for the main heading */
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 30px; /* Added space at the bottom for better separation */
+}
+
+/* Style for buttons */
+button {
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Adjustments for the body */
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Ensures the content is centered vertically */
+}
+
+/* Form style adjustments */
+.form {   
+    font-family: 'Courier New', Courier, monospace;    
+    font-size: 20px;
+    color: blue; 
+    display: flex;
+    flex-direction: row; /* Adjusted to display form elements in a row */
+    align-items: center;
+}
+
+/* Adjustments for form labels and inputs */
+.form label {
+    margin: 0 10px; /* Adjusted margin for spacing between label and input */
+}
+
+.form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    margin-bottom: 15px;
+}
+
+/* Style adjustments for the table */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 30px auto;
+}
+
+th, td {
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
+
+/* Adjustments for table header to prevent hover effect */
+th {
+    background-color: blue;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: lightblue;
+    color: yellow;
+}
